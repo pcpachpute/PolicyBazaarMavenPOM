@@ -32,6 +32,8 @@ public class Base
 	
 	public void closeBrowser() throws InterruptedException
 	{
+		Utility.waitUse(1000);
+		
 		driver.quit();
 		
 		Reporter.log("Closing browser.", true);	

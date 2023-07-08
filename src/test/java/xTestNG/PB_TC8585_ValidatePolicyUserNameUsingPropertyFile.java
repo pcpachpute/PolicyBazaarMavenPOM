@@ -86,7 +86,7 @@ public class PB_TC8585_ValidatePolicyUserNameUsingPropertyFile extends Base
 		
 		Utility.takeScreenshot(driver, actualUN +" "+TCID);
 		
-		Utility.waitUse(3000);
+		Utility.waitUse(1000);
 	}
 	
 	@AfterMethod
@@ -98,7 +98,7 @@ public class PB_TC8585_ValidatePolicyUserNameUsingPropertyFile extends Base
 	@AfterClass
 	public void closePolicyBazaar() throws InterruptedException
 	{
-		Utility.waitUse(4000);
+		Utility.waitUse(1000);
 		closeBrowser();
 	}
 }
